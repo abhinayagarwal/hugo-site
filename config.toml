@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "JavaFX 11"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -18,7 +18,7 @@ theme = "hugo-elate-theme"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
-    services = "Services"
+    services = "Community"
     about = "About"
     contact = "Contact"
 
@@ -33,10 +33,11 @@ theme = "hugo-elate-theme"
 
     # postpended links
     #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
-  
+    #   url = "http://docs.gluonhq.com/javafx11/#install-javafx"
+    #   name = "Getting Started"
+    #   weight = 10
+
+    
   # Hero section
   [params.hero]
     title = "JavaFX 11 Release"
@@ -47,80 +48,36 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
+    title = "Getting Started"
+    description = "This tutorial will help you to write a JavaFX 11 application and run it on mulitple desktop platforms."
+    url = "http://docs.gluonhq.com/javafx11/#install-javafx"
+    button = "Start"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    title = "Download"
+    description = "The JavaFX 11 runtime is available as a platform-specifc SDK, as a number of jmods, and as a set of artifacts in maven central."
+    url = "https://gluonhq.com/products/javafx/"
+    button = "Download"
+    icon = "icon-cloud-download"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
+    title = "Develop"
+    description = "OpenJFX is free software, licensed under the GPL with the class path exception, just as OpenJDK."
+    url = "https://github.com/javafxports/openjdk-jfx"
+    button = "Let's do it!"
+    icon = "icon-social-github"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
-
-  # Work section
-  [params.work]
-    enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
-
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
-
-  # Testimonials section
+ # Testimonials section
   [params.testimonials]
     enable = true
     title = "Testimonials"
@@ -143,38 +100,81 @@ theme = "hugo-elate-theme"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
-    
 
 
+  # Work section
+  [params.work]
+    enable = false
+    title = "Commuity"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
+    [[params.work.row]]
+      #img = "work_1.jpg"
+      #alt = "Image2"
+      title = "FlexxGantFX"
+      subtitle = "Dirk Lemmermann Software & Consulting"
+
+    [[params.work.row]]
+      #img = "work_2.jpg"
+      #alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      #img = "work_3.jpg"
+      #alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      #img = "work_4.jpg"
+      #alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      #img = "work_5.jpg"
+      #alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      #img = "work_6.jpg"
+      #alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+ 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Community"
+    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the open source mailing list, the forum discussions. Here just some of the examples of tools and framworks already supporting JavaFX 11"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = '<a href="https://dlsc.com/products/flexganttfx/" target="_blank">FlexGanttFX</a>'
+      description = 'FlexGanttFX is the most advanced JavaFX-based Gantt charting framework currently available for Java. It uses a very high abstraction level, which allows it to be applied in various and often very different domains such as ERP systems, production planning and scheduling applications, manufacturing execution systems or project portfolio management applications. FlexGanttFX and its predecessor frameworks FlexGantt (for Swing) and DJT have been used and tested by hundreds of professional planning and scheduling applications. The customer list contains companies such as Siemens, Boeing, NASA, JPL, Lockhead Martin, Raytheon, Kuehne + Nagel, SAIC, General Dynamics, ABAS, Bauer, etc…'
+      icon = "icon-layers"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = '<a href="https://gluonhq.com/labs/maps/" target="_blank">Gluon Maps</a>'
+      description = "Gluon Maps is built with high performance in mind, but that doesn’t mean functionality is missing. Gluon Maps offers layer overlays, multiple tilesets, and much more."
+      icon = "icon-map"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+    #[[params.services.item]]
+    #  title = "Photo &amp; Video"
+    #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in #Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    #  icon = "icon-video2"
+
+    #  [[params.services.item]]
+    #  title = "CMS &amp; eCommerce"
+    #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in #Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+    #  icon = "icon-monitor"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -216,7 +216,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
