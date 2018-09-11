@@ -84,16 +84,16 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+      quote = "&ldquo;I'm excited to see the more folks from the wider Java Community working together with Oracle on JavaFX. This release proves there is a great future for client-side Java development. As an OpenJDK Project , OpenJFX shares much of its principles and infrastructure, leading to a high-quality release that is very well aligned with the upcoming Java 11 release.&rdquo;"
+      person = 'Georges Saab <span class="subtext">Vice President, Software Development, Java Platform Group at <a href="https://www.oracle.com/java/" target="_blank">Oracle</a></span>'
+      img = "Saab.jpg"
+      alt = "Georges Saab"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
+      quote = "&ldquo;For me OpenJFX represents a major milestone in the ongoing effort to make JavaFX the leading technology for mobile, embedded, and desktop applications. Finally Java has an advanced UI toolkit that can evolve independently of JDK development activities backed by a passionate developer community that can directly contribute to its future. All that is needed to use OpenJFX is to add a dependency to your Maven or Gradle build and things just work. The OpenJFX team has done a fantastic job to make using JavaFX as simple as adding any other third party library. If you know how to add Apache Commons libraries to your build then you know how to add JavaFX. I have no doubt that OpenJFX will have a bright future ahead of it. The best is yet to come!&rdquo;"
+      person = 'Dirk Lemmermann <span class="subtext">CEO of <a href="https://dlsc.com" target="_blank">DLSC Software & Consulting GmbH</a></span>'
+      img = "Lemmermann.jpg"
+      alt = "Dirk Lemmermann"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
