@@ -103,9 +103,16 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
           quote = "&ldquo;As an advocate of JavaFX for over a decade I'm thrilled about the community support and momentum of OpenJFX. A big thanks to the folks at Gluon for providing leadership to the OpenJFX effort!&rdquo;"
-          person = 'James Weaver <span class="subtext"></span>'
+          person = 'James Weaver <span class="subtext">Developer advocate at <a href="https://pivotal.io/" target="_blank">Pivotal</a></span>'
           img = "weaver.jpg"
           alt = "James Weaver"
+
+    [[params.testimonials.item]]
+          quote = "&ldquo;JavaFX is a fantastic technology that has enabled the cost-effective development of capabilities while providing performance and customization necessary for our engineering problems. The OpenJFX 11 release is a big step forward that streamlines our application images making them more lightweight. This makes distribution to our users performing design analysis supporting NASA missions easy so they can move forward faster.&rdquo;"
+          person = 'Sean Phillips <span class="subtext">Software Architect for the Deep Space Trajectory Explorer at <a href="https://ai-solutions.com/" target="_blank">a.i. solutions</a></span>'
+          img = "sean.jpg"
+          alt = "Sean Phillips"
+
 
   # Work section
   [params.work]
