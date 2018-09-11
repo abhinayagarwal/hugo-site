@@ -16,7 +16,7 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = 'JavaFX'
     home = "Home"
-    work = "Work"
+    work = "Community"
     testimonials = "Testimonials"
     services = "Community"
     about = "About"
@@ -104,22 +104,22 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.work]
-    enable = false
+    enable = true
     title = "Commuity"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the open source mailing list, the forum discussions. Here just some of the examples of tools and frameworks already supporting JavaFX 11."
+    footertext = ''
 
     [[params.work.row]]
-      #img = "work_1.jpg"
-      #alt = "Image2"
-      title = "FlexxGantFX"
-      subtitle = "Dirk Lemmermann Software & Consulting"
+      img = "FlexGanttFX.png"
+      alt = "Image2"
+      title = 'FlexxGantFX'
+      subtitle = 'Dirk Lemmermann Software & Consulting'
 
     [[params.work.row]]
-      #img = "work_2.jpg"
-      #alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "GluonMaps-1024x592@2x.png"
+      alt = "Gluon Maps"
+      title = "Gluon Maps"
+      subtitle = "Gluon"
 
     [[params.work.row]]
       #img = "work_3.jpg"
@@ -148,7 +148,7 @@ theme = "hugo-elate-theme"
  
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Community"
     description = "JavaFX features a vibrant and passionate developer community. This enthusiasm can be found in the open source mailing list, the forum discussions. Here just some of the examples of tools and frameworks already supporting JavaFX 11"
 
