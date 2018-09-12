@@ -139,9 +139,22 @@ theme = "hugo-elate-theme"
       img = "ControlsFX.png"
       alt = "ControlsFX"
       title = "ControlsFX"
-      subtitle = "ControlsFX"
+      subtitle = "De-facto JavaFX controls library"
       url = "http://controlsfx.org/"
 
+    [[params.work.row]]
+      img = "fxyz.png"
+      alt = "FXyz"
+      title = "FXyz project"
+      subtitle = "3D Visualization and Components library"
+      url = "https://github.com/FXyz/FXyz"  
+
+    [[params.work.row]]
+      img = "dste.jpg"
+      alt = "The Deep Space Trajectory Explorer"
+      title = "DSTE"
+      subtitle = "The Deep Space Trajectory Explorer"
+      url = "https://ai-solutions.com/deep-space-trajectory-explorer/"    
  
   # Services section
   [params.services]
