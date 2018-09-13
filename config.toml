@@ -120,6 +120,12 @@ theme = "hugo-elate-theme"
           person = 'Sean Phillips <span class="subtext">Software Architect for the Deep Space Trajectory Explorer at <a href="https://ai-solutions.com/" target="_blank">a.i. solutions</a></span>'
           img = "sean.jpg"
           alt = "Sean Phillips"
+          
+    [[params.testimonials.item]]
+              quote = "&ldquo;At KBC, we use JavaFX in a number of projects. We are extremely happy to see that the JavaFX project is moving forward. The open development in OpenJFX ensures that different companies can provide their input, which typically results in high-quality releases.&rdquo;"
+              person = 'Lieven Franckaert <span class="subtext">Project Leader at <a href="https://www.kbc.com/en" target="_blank">KBC Bank</a></span>'
+              img = "person1.jpg"
+              alt = "KBC"
 
 
   # Work section
