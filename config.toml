@@ -57,7 +57,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Download"
-    description = "The JavaFX 11 runtime is available as a platform-specifc SDK, as a number of jmods, and as a set of artifacts in maven central."
+    description = 'The JavaFX 11 runtime is available as a platform-specifc SDK, as a number of jmods, and as a set of artifacts in Maven Central.'
     url = "https://gluonhq.com/products/javafx/"
     button = "Download"
     icon = "icon-cloud-download"
@@ -89,23 +89,31 @@ theme = "hugo-elate-theme"
       img = "Saab.jpg"
       alt = "Georges Saab"
 
+
+    [[params.testimonials.item]]
+          quote = "&ldquo;I am very pleased with the unbundled OpenJFX 11 release, which is now available to developers via maven modules or a standalone SDK. This release is a great example of what can happen with a vibrant community of open-source developers. I look forward to the future of JavaFX as a community-driven project.&rdquo;"
+          person = 'Kevin Rushforth <span class="subtext">OpenJFX Project Co-Lead, <a href="https://www.oracle.com/java/" target="_blank">Oracle</a></span>'
+          img = "Rushforth.jpg"
+          alt = "Kevin Rushforth"   
+
+
     [[params.testimonials.item]]
       quote = "&ldquo;OpenJFX is like a child to me. After helping it to grow up for so long, I now look at it proudly and excited about its future. The community effort that is growing around it pleases me to no end, and I can't wait to see where it goes next.&rdquo;"
       person = 'Jonathan Giles <span class="subtext">Java guy at Microsoft, OpenJFX contributor & <a href="http://controlsfx.org/" target="_blank">ControlsFX</a> project lead</span>'
       img = "jonathan.jpg"
       alt = "Jonathan Giles"
-          
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;As an advocate of JavaFX for over a decade I'm thrilled about the community support and momentum of OpenJFX. A big thanks to the folks at Gluon for providing leadership to the OpenJFX effort!&rdquo;"
+      person = 'James Weaver <span class="subtext">Developer advocate at <a href="https://pivotal.io/" target="_blank">Pivotal</a></span>'
+      img = "weaver.jpg"
+      alt = "James Weaver"   
+         
     [[params.testimonials.item]]
           quote = "&ldquo;For me OpenJFX represents a major milestone in the ongoing effort to make JavaFX the leading technology for mobile, embedded, and desktop applications. Finally Java has an advanced UI toolkit that can evolve independently of JDK development activities backed by a passionate developer community that can directly contribute to its future.!&rdquo;"
           person = 'Dirk Lemmermann <span class="subtext">CEO of <a href="https://dlsc.com" target="_blank">DLSC Software & Consulting GmbH</a></span>'
           img = "Lemmermann.jpg"
           alt = "Dirk Lemmermann"
-
-    [[params.testimonials.item]]
-          quote = "&ldquo;As an advocate of JavaFX for over a decade I'm thrilled about the community support and momentum of OpenJFX. A big thanks to the folks at Gluon for providing leadership to the OpenJFX effort!&rdquo;"
-          person = 'James Weaver <span class="subtext">Developer advocate at <a href="https://pivotal.io/" target="_blank">Pivotal</a></span>'
-          img = "weaver.jpg"
-          alt = "James Weaver"
 
     [[params.testimonials.item]]
           quote = "&ldquo;JavaFX is a fantastic technology that has enabled the cost-effective development of capabilities while providing performance and customization necessary for our engineering problems. The OpenJFX 11 release is a big step forward that streamlines our application images making them more lightweight. This makes distribution to our users performing design analysis supporting NASA missions easy so they can move forward faster.&rdquo;"
@@ -154,7 +162,14 @@ theme = "hugo-elate-theme"
       alt = "The Deep Space Trajectory Explorer"
       title = "DSTE"
       subtitle = "The Deep Space Trajectory Explorer"
-      url = "https://ai-solutions.com/deep-space-trajectory-explorer/"    
+      url = "https://ai-solutions.com/deep-space-trajectory-explorer/"   
+
+    [[params.work.row]]
+      img = "ObjectGraphVisualizer.png"
+      alt = "Object Graph Vizualizer"
+      title = "Object Graph Vizualizer 3.2"
+      subtitle = "A tool for to understand the Object Oriented paradigm and patterns"
+      url = "https://github.com/Nurtak/ObjectGraphVisualization"      
  
   # Services section
   [params.services]
