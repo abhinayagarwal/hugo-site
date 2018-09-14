@@ -32,10 +32,15 @@ theme = "hugo-elate-theme"
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #   url = "http://docs.gluonhq.com/javafx11/#install-javafx"
-    #   name = "Getting Started"
-    #   weight = 10
+    [[menu.postpend]]
+       url = "https://openjfx.github.io/javadoc/11/"
+       name = "Documentation"
+       weight = 10
+
+    [[menu.postpend]]
+       url = "https://github.com/javafxports/openjdk-jfx/blob/jfx-11/doc-files/release-notes-11.md"
+       name = "Release Notes"
+       weight = 10   
 
     
   # Hero section
@@ -138,7 +143,7 @@ theme = "hugo-elate-theme"
     [[params.work.row]]
       img = "FlexGanttFX.png"
       alt = "Image2"
-      title = 'FlexGantFX'
+      title = 'FlexGanttFX'
       subtitle = 'Dirk Lemmermann Software & Consulting'
       url = "https://dlsc.com/products/flexganttfx/"
 
