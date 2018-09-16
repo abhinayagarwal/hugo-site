@@ -132,6 +132,11 @@ theme = "hugo-elate-theme"
               img = "person1.jpg"
               alt = "KBC"
 
+    [[params.testimonials.item]]
+              quote = "&ldquo;I'm very optimistic about JavaFX 11 and beyond. The excellent technical work, including hardware acceleration and first class Java API's are now combined with modern, open development, testing and integration approaches. The input of new contributors is already showing.&rdquo;"
+              person = 'Johan Vos <span class="subtext">OpenJFX Project Co-Lead, Co-founder at <a href="https://gluonhq.com/" target="_blank">Gluon</a></span>'
+              img = "person1.jpg"
+              alt = "KBC"
 
   # Work section
   [params.work]
@@ -181,6 +186,13 @@ theme = "hugo-elate-theme"
       title = "Object Graph Vizualizer 3.2"
       subtitle = "A tool for to understand the Object Oriented paradigm and patterns"
       url = "https://github.com/Nurtak/ObjectGraphVisualization"      
+
+    [[params.work.row]]
+      img = "CalendarFX.png"
+      alt = "CalendarFX"
+      title = "CalendarFX"
+      subtitle = "A Java framework for creating sophisticated calendar views"
+      url = "https://github.com/dlemmermann/CalendarFX"        
  
   # Services section
   [params.services]
