@@ -135,8 +135,8 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
               quote = "&ldquo;I'm very optimistic about JavaFX 11 and beyond. The excellent technical work, including hardware acceleration and first class Java API's are now combined with modern, open development, testing and integration approaches. The input of new contributors is already showing.&rdquo;"
               person = 'Johan Vos <span class="subtext">OpenJFX Project Co-Lead, Co-founder at <a href="https://gluonhq.com/" target="_blank">Gluon</a></span>'
-              img = "person1.jpg"
-              alt = "KBC"
+              img = "JohanVos.jpg"
+              alt = "Johan Vos"
 
   # Work section
   [params.work]
