@@ -12,16 +12,15 @@ theme = "hugo-elate-theme"
   author = ""
   description = ""
   email = ""
+
   # Navigation
   [params.navigation]
     brand = 'JavaFX'
     home = "Home"
+    documentation = "Documentation"
     work = "Community"
     testimonials = "Testimonials"
-    services = "Community"
-    about = "About"
-    contact = "Contact"
-
+    
     # You can add custom links before or after the default links
     # Assign a weight to define the order
     
@@ -30,18 +29,6 @@ theme = "hugo-elate-theme"
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
-
-    # postpended links
-    [[menu.postpend]]
-       url = "https://openjfx.github.io/javadoc/11/"
-       name = "Documentation"
-       weight = 10
-
-    [[menu.postpend]]
-       url = "https://github.com/javafxports/openjdk-jfx/blob/jfx-11/doc-files/release-notes-11.md"
-       name = "Release Notes"
-       weight = 10   
-
     
   # Hero section
   [params.hero]
@@ -51,14 +38,6 @@ theme = "hugo-elate-theme"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
-
-  [[params.intro.item]]
-    title = "Getting Started"
-    description = "This tutorial will help you to write a JavaFX 11 application and run it on mulitple desktop platforms."
-    url = "docs/index.html"
-    button = "Start"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Download"
@@ -81,8 +60,38 @@ theme = "hugo-elate-theme"
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
+    
+  # Documentation section
+  [params.documentation]
+    enable = true
+    title = "Documentation"
+    description = ""
+    
+    [[params.documentation.item]]
+      title = "Javadoc"
+      description = "API documentation for JavaFX 11"
+      url = "/javadoc/11/"
+      button = "Visit"
+      icon = "icon-book-open"
+      img = "img_7.jpg"
+      
+    [[params.documentation.item]]
+      title = "Getting Started"
+      description = "Getting started tutorial for JavaFX 11"
+      url = "/docs/"
+      button = "Visit"
+      icon = "icon-book-open"
+      img = "img_8.jpg"
+     
+    [[params.documentation.item]]
+      title = "Release Notes"
+      description = "Release Notes for JavaFX 11"
+      url = "https://github.com/javafxports/openjdk-jfx/blob/jfx-11/doc-files/release-notes-11.md#release-notes-for-javafx-11"
+      button = "Visit"
+      icon = "icon-book-open"
+      img = "img_10.jpg"
 
- # Testimonials section
+  # Testimonials section
   [params.testimonials]
     enable = true
     title = "Testimonials"
@@ -98,7 +107,7 @@ theme = "hugo-elate-theme"
       quote = "&ldquo;I am very pleased with the unbundled OpenJFX 11 release, which is now available to developers via maven modules or a standalone SDK. This release is a great example of what can happen with a vibrant community of open-source developers. I look forward to the future of JavaFX as a community-driven project.&rdquo;"
       person = 'Kevin Rushforth <span class="subtext">OpenJFX Project Co-Lead, <a href="https://www.oracle.com/java/" target="_blank">Oracle</a></span>'
       img = "Rushforth.jpg"
-      alt = "Kevin Rushforth"   
+      alt = "Kevin Rushforth"
 
     [[params.testimonials.item]]
       quote = "&ldquo;OpenJFX is like a child to me. After helping it to grow up for so long, I now look at it proudly and excited about its future. The community effort that is growing around it pleases me to no end, and I can't wait to see where it goes next.&rdquo;"
