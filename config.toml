@@ -94,13 +94,11 @@ theme = "hugo-elate-theme"
       img = "Saab.jpg"
       alt = "Georges Saab"
 
-
     [[params.testimonials.item]]
       quote = "&ldquo;I am very pleased with the unbundled OpenJFX 11 release, which is now available to developers via maven modules or a standalone SDK. This release is a great example of what can happen with a vibrant community of open-source developers. I look forward to the future of JavaFX as a community-driven project.&rdquo;"
       person = 'Kevin Rushforth <span class="subtext">OpenJFX Project Co-Lead, <a href="https://www.oracle.com/java/" target="_blank">Oracle</a></span>'
       img = "Rushforth.jpg"
       alt = "Kevin Rushforth"   
-
 
     [[params.testimonials.item]]
       quote = "&ldquo;OpenJFX is like a child to me. After helping it to grow up for so long, I now look at it proudly and excited about its future. The community effort that is growing around it pleases me to no end, and I can't wait to see where it goes next.&rdquo;"
@@ -137,6 +135,12 @@ theme = "hugo-elate-theme"
       person = 'Johan Vos <span class="subtext">OpenJFX Project Co-Lead, Co-founder at <a href="https://gluonhq.com/" target="_blank">Gluon</a></span>'
       img = "JohanVos.jpg"
       alt = "Johan Vos"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;JavaFX helps us provide the best solution for our customers, and with the new JavaFX 11 we will be even better than before. Thus, we have already started to migrate our projects. As a developer, it is fun to design JavaFX products with all the new potential and options it gives to enhance the customer experience.&rdquo;"
+      person = 'Diego Cirujano Cuesta <span class="subtext"><a href="https://www.zeiss.com/" target="_blank">Zeiss</a> Expert Leader - Staff</span>'
+      img = "diego.jpg"
+      alt = "Diego Cirujano Cuesta"
               
   # Work section
   [params.work]
