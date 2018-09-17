@@ -206,7 +206,14 @@ theme = "hugo-elate-theme"
       title = "CalendarFX"
       subtitle = "A Java framework for creating sophisticated calendar views"
       url = "https://github.com/dlemmermann/CalendarFX"        
- 
+
+    [[params.work.row]]
+      img = "FormsFX.png"
+      alt = "FormsFX"
+      title = "FormsFX"
+      subtitle = "A framework for easily creating forms for a JavaFX UI."
+      url = "https://github.com/dlemmermann/FormsFX"        
+
   # Services section
   [params.services]
     enable = false
