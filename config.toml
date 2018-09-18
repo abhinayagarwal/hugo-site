@@ -78,7 +78,7 @@ theme = "hugo-elate-theme"
     [[params.documentation.item]]
       title = "Getting Started"
       description = "Get started quickly and easily with JavaFX 11"
-      url = "/docs/"
+      url = "/openjfx-docs/"
       button = "Visit"
       icon = "icon-book-open"
       img = "img_8.jpg"
