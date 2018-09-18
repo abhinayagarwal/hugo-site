@@ -1,12 +1,16 @@
 	<footer id="footer" role="contentinfo">
-		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
 		<div class="container">
 			<div class="">
 				<div class="col-md-12 text-center">
 					<p>{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="gluon">
+				<div class="col-md-12 text-center">
+					<a href="https://gluonhq.com" target="_blank">Gluon</a> <i class="icon-heart2"></i> OpenJFX
+				</div>
+			</div>
+			<!--<div class="row">
 				<div class="col-md-12 text-center">
 					<ul class="social social-circle">
 					{{ range .Site.Params.footer.links }}
@@ -14,6 +18,6 @@
 					{{ end }}
 					</ul>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</footer>
