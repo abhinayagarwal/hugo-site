@@ -49,7 +49,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Develop"
-    description = "OpenJFX is free software, licensed under the GPL with the class path exception, just as OpenJDK."
+    description = "OpenJFX is free software, licensed under the GPL with the class path exception, just like the OpenJDK."
     url = "https://github.com/javafxports/openjdk-jfx"
     button = "Let's do it!"
     icon = "icon-social-github"
@@ -111,7 +111,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       quote = "&ldquo;OpenJFX is like a child to me. After helping it to grow up for so long, I now look at it proudly and excited about its future. The community effort that is growing around it pleases me to no end, and I can't wait to see where it goes next.&rdquo;"
-      person = 'Jonathan Giles <span class="subtext">Java guy at Microsoft, OpenJFX contributor & <a href="http://controlsfx.org/" target="_blank">ControlsFX</a> project lead</span>'
+      person = 'Jonathan Giles <span class="subtext"><a href="http://jonathangiles.net/">Java guy</a> at Microsoft, OpenJFX contributor & <a href="http://controlsfx.org/" target="_blank">ControlsFX</a> project lead</span>'
       img = "jonathan.jpg"
       alt = "Jonathan Giles"
 
@@ -128,10 +128,10 @@ theme = "hugo-elate-theme"
       alt = "Dirk Lemmermann"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;JavaFX is a fantastic technology that has enabled the cost-effective development of capabilities while providing performance and customization necessary for our engineering problems. The OpenJFX 11 release is a big step forward that streamlines our application images making them more lightweight. This makes distribution to our users performing design analysis supporting NASA missions easy so they can move forward faster.&rdquo;"
-      person = 'Sean Phillips <span class="subtext">Software Architect for the Deep Space Trajectory Explorer at <a href="https://ai-solutions.com/" target="_blank">a.i. solutions</a></span>'
-      img = "sean.jpg"
-      alt = "Sean Phillips"
+      quote = "&ldquo;JavaFX helps us provide the best solution for our customers, and with the new JavaFX 11 we will be even better than before. Thus, we have already started to migrate our projects. As a developer, it is fun to design JavaFX products with all the new potential and options it gives to enhance the customer experience.&rdquo;"
+      person = 'Diego Cirujano Cuesta <span class="subtext"><a href="https://www.zeiss.com/" target="_blank">Zeiss</a> Expert Leader - Staff</span>'
+      img = "diego.jpg"
+      alt = "Diego Cirujano Cuesta"
           
     [[params.testimonials.item]]
       quote = "&ldquo;At KBC, we use JavaFX in a number of projects. We are extremely happy to see that the JavaFX project is moving forward. The open development in OpenJFX ensures that different companies can provide their input, which typically results in high-quality releases.&rdquo;"
@@ -146,10 +146,10 @@ theme = "hugo-elate-theme"
       alt = "Johan Vos"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;JavaFX helps us provide the best solution for our customers, and with the new JavaFX 11 we will be even better than before. Thus, we have already started to migrate our projects. As a developer, it is fun to design JavaFX products with all the new potential and options it gives to enhance the customer experience.&rdquo;"
-      person = 'Diego Cirujano Cuesta <span class="subtext"><a href="https://www.zeiss.com/" target="_blank">Zeiss</a> Expert Leader - Staff</span>'
-      img = "diego.jpg"
-      alt = "Diego Cirujano Cuesta"
+      quote = "&ldquo;JavaFX is a fantastic technology that has enabled the cost-effective development of capabilities while providing performance and customization necessary for our engineering problems. The OpenJFX 11 release is a big step forward that streamlines our application images making them more lightweight. This makes distribution to our users performing design analysis supporting NASA missions easy so they can move forward faster.&rdquo;"
+      person = 'Sean Phillips <span class="subtext">Software Architect for the Deep Space Trajectory Explorer at <a href="https://ai-solutions.com/" target="_blank">a.i. solutions</a></span>'
+      img = "sean.jpg"
+      alt = "Sean Phillips"
               
   # Work section
   [params.work]
