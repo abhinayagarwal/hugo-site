@@ -10,9 +10,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-			{{ range .Site.Params.testimonials.item }}
-				<div class="col-md-12">
+			{{ range $index, $element := .Site.Params.testimonials.item }}
+                {{ if mod $index 2 | eq 0 }}
+                <div class="row">
+                {{end}}
+				<div class="col-md-6">
 					<div class="box-testimony">
 						<blockquote class="to-animate-2">
 							<p>{{ .quote | markdownify}}</p>
@@ -23,7 +25,9 @@
 						</div>
 					</div>
 				</div>
-			{{ end }}
-			</div>
+                {{ if mod $index 2 | eq 1 }}    
+                </div>
+                {{end}}
+            {{ end }}
 		</div>
 	</section>
