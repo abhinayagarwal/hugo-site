@@ -22,6 +22,10 @@
        		{{ partial "work.html" .}}
        	{{ end }}
 
+        {{ if .Site.Params.events.enable }}
+            {{ partial "events.html" .}}
+        {{ end }}
+
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
 		{{ end }}
