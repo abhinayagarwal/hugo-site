@@ -97,6 +97,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Upcoming Events"
     description = ""
+    footertext= ""
     
     [[params.events.row]]
       title = 'Oracle Code One'
@@ -116,7 +117,7 @@ theme = "hugo-elate-theme"
 
     [[params.events.row]]
       title = 'JavaFX Days Zurich'
-      subtitle = "This conference is completely focused on the JavaFX technology for developing state-of-the-art desktop and mobile applications."
+      subtitle = "A conference focused on the JavaFX technology for developing state-of-the-art desktop and mobile applications."
       dates = "December 3-5, 2018"
       url = "https://www.javafx-days.com/"
       img = "JavaFX-Days.png"
