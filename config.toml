@@ -202,7 +202,7 @@ theme = "hugo-elate-theme"
       img = "GluonMaps-1024x592@2x.png"
       alt = "Gluon Maps"
       title = "Gluon Maps"
-      subtitle = "Tiles based geo-location map framerwork"
+      subtitle = "Tiles based geo-location map framework"
       url = "https://gluonhq.com/labs/maps/"
 
     [[params.work.row]]
@@ -246,6 +246,20 @@ theme = "hugo-elate-theme"
       title = "FormsFX"
       subtitle = "A framework for easily creating forms for a JavaFX application."
       url = "https://github.com/dlemmermann/FormsFX"        
+
+    [[params.work.row]]
+      img = "BootstrapFX.png"
+      alt = "BootstrapFX"
+      title = "BootstrapFX"
+      subtitle = "Twitter's Bootstrap CSS for JavaFX"
+      url = "https://github.com/aalmiray/bootstrapfx"
+
+    [[params.work.row]]
+      img = "Ikonli.png"
+      alt = "Ikonli"
+      title = "Ikonli"
+      subtitle = "Font icon packs for JavaFX applications"
+      url = "https://github.com/aalmiray/ikonli"
 
   # Services section
   [params.services]
